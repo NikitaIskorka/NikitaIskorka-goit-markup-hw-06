@@ -7,7 +7,7 @@ accent color #2196F3
 
 bcg color #FFFFFF
 bcg alternative color #F5F4FA*/
-
+/* 555555555555555555555555555555555555555555 */
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -17,25 +17,26 @@ bcg alternative color #F5F4FA*/
   --bcg-alternative-color: #f5f4fa;
 }
 /* * {
-  outline: solid darkslateblue; */
+  
 
-/* all paige main formattiong */
+/* all paige main formattiong 55555555555555555555*/
 .page {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   background-color: var(--bcg-color);
 }
-/* No dots on lists */
+/* No dots on lists 55555555555555555555555555555*/
 .list {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-/* Отменяем подчеркивание у ссылки */
+/* Отменяем подчеркивание у ссылки 55555555555555555555555*/
 a {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+/* 555555555555555555555555555 */
 header {
   border: 1px solid #ececec;
 }
@@ -43,7 +44,7 @@ header {
 .no-margin {
   margin: 0px;
 }
-
+/* 555555555555555555555555555555 */
 .container {
   width: 1200px;
   margin-right: auto;
@@ -61,7 +62,7 @@ header {
 and contacts 
 focus and hover */
 
-/* site navigation text  */
+/* site navigation text  5555555555555555555555555*/
 .nav {
   margin-left: 85px;
 
@@ -71,11 +72,11 @@ focus and hover */
   letter-spacing: 0.02em;
   display: flex;
 }
-
+/* 555555555555555555555555555555555555555555 */
 .nav-item + .nav-item {
   margin-left: 50px;
 }
-
+/* 55555555555555555555555555555555 */
 .nav-link {
   position: relative;
 
@@ -86,10 +87,11 @@ focus and hover */
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 5555555555555555555555555555555555555555555555555 */
 .nav-link:hover {
   color: var(--accent-color);
 }
+/* 55555555555555555555555555555555555555555555 */
 .current-link::after {
   content: "";
   display: flex;
@@ -106,12 +108,12 @@ focus and hover */
   background: #2196f3;
   border-radius: 2px;
 }
-
+/* 55555555555555555555555555555555555 */
 .current-link {
   color: var(--accent-color);
 }
 
-/* Nsv contsiner */
+/* Nsv contsiner 55555555555555555555555555*/
 .navigation-container {
   display: flex;
   align-items: center;
@@ -119,7 +121,7 @@ focus and hover */
   max-width: 1230px;
   margin: 0 auto;
 }
-/* allTitles H2 */
+/* allTitles H2 5555555555555555555555*/
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -128,17 +130,18 @@ focus and hover */
 
   letter-spacing: 0.03em;
 }
-/* logo */
+/* logo 55555555555555555555555*/
 
 .logo {
   display: inline-block;
 }
-/* CONTACTS */
+/* CONTACTS5555555555555555555555555*/
 .contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
+/* 5555555555555555555555555555555 */
 .email-style {
   display: flex;
   align-items: center;
@@ -148,14 +151,17 @@ focus and hover */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* 555555555555555555555555555555555555 */
 .email-style:focus,
 .email-style:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
+/* 5555555555555555555555555555555 */
 .icon-email {
   margin-right: 10px;
 }
+/* 55555555555555555555555555555555555555 */
 .email-text {
   font-style: normal;
 
@@ -165,7 +171,7 @@ focus and hover */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+/* 555555555555555555555555555555 */
 .phonenumber-style {
   display: flex;
   align-items: center;
@@ -174,14 +180,17 @@ focus and hover */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* 55555555555555555555555555555 */
 .phonenumber-style:focus,
 .phonenumber-style:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
+/* 555555555555555555555555555555 */
 .icon-phone {
   margin-right: 10px;
 }
+/* 5555555555555555555555555555555555 */
 .phonenumber-text {
   font-style: normal;
 
@@ -196,6 +205,7 @@ focus and hover */
   padding-top: 200px;
   padding-bottom: 200px;
 }
+/* 555555555555555555555555555 */
 .hero {
   background-image: linear-gradient(
       to right,
@@ -213,7 +223,7 @@ focus and hover */
   text-align: center;
 }
 
-/* Hero title */
+/* Hero title 5555555555555555555555555*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -226,7 +236,7 @@ focus and hover */
   color: var(--alternative-text-color);
 }
 
-/* Hero button */
+/* Hero button 55555555555555555555555555555555555555*/
 .button {
   padding: 10px 32px;
   color: var(--alternative-text-color);
@@ -237,7 +247,7 @@ focus and hover */
   margin-top: 30px;
 }
 
-/* MODAL WINDOW */
+/* MODAL WINDOW 5555555555555555555555*/
 .backdrop {
   position: fixed;
 
@@ -252,15 +262,16 @@ focus and hover */
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 5555555555555555555555555 */
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+/* 5555555555555555555555555555 */
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) rotate(360deg) scale(0.1);
 }
-
+/* 555555555555555555555555555555 */
 .modal {
   position: absolute;
   top: 50%;
@@ -273,24 +284,24 @@ focus and hover */
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
+/* 555555555555555555555555555 */
 .close-button {
   position: absolute;
   right: 8px;
   top: 8px;
 }
+/* 55555555555555555555555555555555555555 */
 .close-button:hover,
-.close-button:focus{
+.close-button:focus {
   fill: var(--accent-color);
-
 }
 
-/* --------------FORM-POSITIONING--------------------- */
+/* --------------55555555555555555FORM-POSITIONING--------------------- */
 .callback-form {
   padding: 40px;
   width: 528px;
-
 }
+/* 5555555555555555555555555 */
 .form-tittle {
   text-align: center;
   margin-top: 0px;
@@ -301,13 +312,14 @@ focus and hover */
   line-height: 1.15;
   letter-spacing: 0.03em;
 }
-/* ------------------------FORM GRAPHS-------------------------------- */
+/* --------------------555555555----FORM GRAPHS-------------------------------- */
 .form-field {
   position: relative;
   display: flex;
   flex-direction: column;
   margin-top: 30px;
 }
+/* 55555555555555555 */
 .form-field label {
   margin-bottom: 4px;
 
@@ -317,6 +329,7 @@ focus and hover */
 
   color: var(--secondary-text-color);
 }
+/* 5555555555555555555 */
 .form-lable {
   position: absolute;
   top: 30%;
@@ -326,6 +339,7 @@ focus and hover */
 
   margin-left: 10px;
 }
+/* 555555555555555555 */
 .form-field input {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -333,14 +347,17 @@ focus and hover */
   border-radius: 4px;
   height: 40px;
 }
+/* 5555555555555555555 */
 .form-input:focus + .form-lable {
   transform: translateY(-250%) translateX(-42px);
-  color: color: #757575;;
+  color: color #757575;
 }
+/* 5555555555555555555555 */
 .form-input:focus + .form-lable,
 .form-input:not(:placeholder-shown) + .form-lable {
   transform: translateY(-250%) translateX(-42px);
 }
+/* 55555555555555555555555555 */
 textarea {
   width: 448px;
   height: 120px;
@@ -351,42 +368,49 @@ textarea {
   border-radius: 4px;
   resize: none;
 }
-textarea::placeholder{
-  font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.01em;
+/*555555555555555555  */
 
-color: rgba(117, 117, 117, 0.5);
+textarea::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
-/* -----------------------MODAL ICONS----------------------- */
+/* -------------------5555555555555555----MODAL ICONS----------------------- */
 .modal-icon {
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
 }
+/* 85555555555555555 */
 .form-input:focus ~ .modal-icon {
   fill: var(--accent-color);
 }
-/* ----------------------------CHECKBOX------------------------------------- */
+/* -----------55555555555555-----------------CHECKBOX------------------------------------- */
 .policy-field {
   display: inline-flex;
   align-items: center;
   margin-top: 20px;
 }
+/* 5555555555555555 */
 .policy-field .policy-link {
   text-decoration: underline;
   color: var(--accent-color);
 }
+/* /55555555555555 */
 .checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+/* 555555555555555 */
 .checkbox-lable {
   display: flex;
   align-items: center;
 }
+/* 5555555555555555 */
 .checkbox-icon {
   content: "";
   display: block;
@@ -395,34 +419,28 @@ color: rgba(117, 117, 117, 0.5);
   background-image: url(../images/checkbox-frame.svg);
   margin-right: 8px;
 }
+/* 555555555555555555555 */
 .checkbox:checked + .checkbox-icon {
   background-image: url(../images/checked-checkbox.svg);
 }
 
-/* -------------------------------SUBMIT BUTTON-------------------------------------------- */
+/* ---------------5555555555555555----------------SUBMIT BUTTON-------------------------------------------- */
 .submit {
   display: flex;
   align-content: center;
   justify-content: center;
 }
+/* 5455555555555555555 */
 .submit-btn {
   margin-top: 30px;
-  padding: 10px 32px;
-
-  min-width: 200px;
-
-  color: var(--alternative-text-color);
-  background: #2196f3;
-  border-radius: 4px;
-  border: 1px solid transparent;
 }
-/* ----------------Features ----------------------------*/
+/* ---5555555555555555555-------------Features ----------------------------*/
 
 .features .list {
   display: flex;
   justify-content: center;
 }
-/* FEATURES ICONS */
+/* FEATURES ICONS 5555555555555555*/
 .features-icon-bcg {
   display: flex;
   align-items: center;
@@ -433,24 +451,27 @@ color: rgba(117, 117, 117, 0.5);
 
   background-color: #f5f4fa;
 }
+/* 55555555555555555555555 */
 .features-icon {
   width: 70px;
   height: 70px;
 }
+/* 555555555555555555555555555 */
 .list .item {
   margin-right: 30px;
 }
+/* 555555555555555555555555555555 */
 .list .item:last-child {
   margin-right: 0px;
 }
-
+/* 55555555555555555555555555555555 */
 .features .title {
   display: none;
 }
 
-/* FETURES ICONS */
+/* FETURES ICONS 555555555555*/
 
-/* features title*/
+/* features title555555555555555*/
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -460,7 +481,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-bottom: 0px;
   margin-top: 10px;
 }
-/* features text dsc */
+/* features text55555555555555555555 dsc */
 .features-text {
   color: var(--secondary-text-color);
 
@@ -472,18 +493,18 @@ color: rgba(117, 117, 117, 0.5);
 }
 /* OUR WORKS */
 
-/* works title */
+/* works title5555555555555 */
 .works .title {
   margin-bottom: 50px;
   margin-top: 0px;
 }
-/* WORK EXAMPLLES LIST */
-
+/* WORK EXAMPLLES LIST5555555555555555 */
+/* 5555555 */
 .work-examples {
   display: flex;
 }
 
-/* wORK CARD  */
+/* wORK CAR55555555555D  */
 .work-item {
   position: relative;
 }
@@ -495,7 +516,7 @@ color: rgba(117, 117, 117, 0.5);
 }
 /* WORK IMAGE */
 
-/* WORK DESCRIPTION */
+/* WORK DESCRIP555555555555TION */
 .work-name {
   position: absolute;
 
@@ -521,11 +542,12 @@ color: rgba(117, 117, 117, 0.5);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* team */
+/* tea5555555555m */
 .team {
   background-color: #f5f4fa;
   width: auto;
 }
+/* 5555555555555 */
 .team-item {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
@@ -534,16 +556,17 @@ color: rgba(117, 117, 117, 0.5);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
 }
+/* 555555555555 */
 .team-item:first-child {
   margin-left: 0px;
 }
-/* team list */
+/* team 555555555555555list */
 .team-list {
   margin-top: 50px;
   display: flex;
 }
 
-/* teammates names   */
+/* teammates 5555555555555names   */
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -554,7 +577,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-bottom: 0px;
   text-align: center;
 }
-/* temmates proffession dsc */
+/* temmates 5555555555555555proffession dsc */
 .team-text {
   font-size: 16px;
   line-height: 1.2;
@@ -567,16 +590,18 @@ color: rgba(117, 117, 117, 0.5);
   text-align: center;
 }
 /* social media list */
-
+/* 5555555555555 */
 .social {
   margin-top: 16px;
   margin-bottom: 24px;
   display: flex;
   justify-content: center;
 }
+/* 555555555555555555 */
 .social-item + .social-item {
   margin-left: 10px;
 }
+/* 55555555555555555 */
 .social-link {
   display: flex;
   justify-content: center;
@@ -590,7 +615,7 @@ color: rgba(117, 117, 117, 0.5);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* 55555555555555555 */
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
@@ -640,11 +665,11 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 /* Footer */
-
+/* 555555555555 */
 .footer {
   background-color: #2f303a;
 }
-/* Footer content */
+/* Footer conte55555555555555nt */
 .footer-container {
   max-width: 1230px;
   padding-top: 60px;
@@ -663,7 +688,7 @@ color: rgba(117, 117, 117, 0.5);
   display: flex;
 }
 
-/* Physical addres going with other color */
+/* Physical addres going with other 55555555555color */
 .phys-address {
   font-size: 14px;
   line-height: 1.7;
@@ -675,7 +700,7 @@ color: rgba(117, 117, 117, 0.5);
   flex-wrap: wrap;
   font-style: normal;
 }
-/* mail and telephone footer color */
+/* mail and telephone foote55555555555555555r color */
 .adress {
   color: var(--secondary-text-color);
   margin-bottom: 0px;
@@ -685,6 +710,7 @@ color: rgba(117, 117, 117, 0.5);
   flex-wrap: wrap;
   font-style: normal;
 }
+/* 555555555555555 */
 .subscribe-container {
   flex-direction: column;
   display: flex;
@@ -692,7 +718,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-left: 30px;
   min-width: 272px;
 }
-/* Subscibe tittle */
+/* Subscibe ti55555555555ttle */
 .subscribe-title {
   color: var(--alternative-text-color);
   margin-top: 0;
@@ -726,7 +752,7 @@ color: rgba(117, 117, 117, 0.5);
   margin-left: 10px;
 }
 
-/* ************************FOOTER FORM**************** */
+/* ********ALLL FOOTER FORM DONE*************555555555***FOOTER FORM**************** */
 .mail-subscribe {
   width: 100%;
 }
@@ -792,7 +818,7 @@ color: rgba(117, 117, 117, 0.5);
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!POrtfolio content!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-/*--------------- Portfolio filter effects hover and focus -------------*/
+/*-----------ALLL DONE---- Portfolio filter effects hover and focus -------------*/
 .filter {
   justify-content: center;
   text-align: center;
